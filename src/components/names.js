@@ -21,6 +21,9 @@ class Names extends React.Component {
                     <TouchableHighlight onPress={() => actions.fetchData()}>
                         <Text> Fetching </Text>
                     </TouchableHighlight>
+  <TouchableHighlight>
+                        
+                    </TouchableHighlight>
                     <TouchableHighlight onPress={() => actions.insertData()}>
                         <Text> Inserting </Text>
                     </TouchableHighlight>
